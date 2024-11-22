@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Collaborative Real-Time Text Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Google Docs-like** real-time collaborative text editor built using **React**, **Firebase**, **React Quill**, and **Lodash**. This application allows multiple users to edit a document simultaneously, and see live updates of each other's changes in real-time.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-Time Collaboration**: Multiple users can work on the same document at the same time, with live updates.
+- **Rich Text Editing**: Powered by **Quill**, providing a smooth and intuitive rich text editing experience.
+- **Firebase Backend**: Firebase Realtime Database is used to store and sync document data across all users instantly.
+- **User Authentication**: Firebase Authentication enables user sign-in and secure management of documents.
+- **Optimized Performance**: Leveraging **Lodash** for optimized operations and handling large-scale updates efficiently.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[View the live demo](#) (Insert your demo URL here)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **React**: For building the user interface with a component-based structure.
+- **Firebase**: For real-time database syncing, authentication, and backend services.
+- **React Quill**: A powerful rich text editor integrated with Quill.
+- **Quill**: The underlying text editor used for creating and formatting rich content.
+- **Lodash**: For optimized data handling, including debouncing and throttling.
+  
+## Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/collaborative-editor.git
