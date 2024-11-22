@@ -58,7 +58,7 @@ function TextEditor() {
 
       //listen for local text change and save it in db
       const editor = quillRef.current.getEditor();
-      editor.on("text-change", (delta: any, oldDelta: any, source: any) => {
+      editor.on("text-change", (source: any) => {
         if (source === "user") {
           isLocalChange.current = true;
           ``;
