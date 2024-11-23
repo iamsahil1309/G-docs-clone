@@ -26,5 +26,7 @@ This app uses **Firebase Anonymous Authentication**, allowing users to join the 
 - **Quill**: The underlying text editor used for creating and formatting rich content.
 - **Lodash**: For optimized data handling, including debouncing and throttling.
   
+## Screenshot
 
-   
+![gdocs-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dde0722c-4bb5-4582-92bf-9142a61f3d0f)
+
