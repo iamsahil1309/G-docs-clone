@@ -4,6 +4,12 @@ A **Google Docs-like** real-time collaborative text editor built using **React**
 
 This app uses **Firebase Anonymous Authentication**, allowing users to join the document editing session without needing to sign in with an account. When users access the application, they are automatically logged in as anonymous users.
 
+## Screenshot
+
+![gdocs-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/e930af1e-c1eb-4ce5-a4e9-95df924fdd13)
+
+
+
 ## Key Features
 
 - **Real-Time Collaboration**: Multiple users can work on the same document at the same time, with live updates.
@@ -26,7 +32,6 @@ This app uses **Firebase Anonymous Authentication**, allowing users to join the 
 - **Quill**: The underlying text editor used for creating and formatting rich content.
 - **Lodash**: For optimized data handling, including debouncing and throttling.
   
-## Screenshot
 
-![gdocs-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dde0722c-4bb5-4582-92bf-9142a61f3d0f)
+
 
